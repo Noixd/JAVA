@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main (){
+        
         double y, n, rez;
 
         Scanner in1 = new Scanner(System.in);
