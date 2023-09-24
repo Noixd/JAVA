@@ -9,6 +9,8 @@ public class Task3 {
         double mass [] = new double[10], val, min, max;
         Random rand = new Random();
 
+        System.out.println("Лабораторная работа № 1. Задание № 3.");
+        System.out.println("Исходный массив");
 
         for (int i = 0; i < 10; i++) {
             val = rand.nextDouble();
