@@ -46,5 +46,6 @@ public class Main {
 
         System.out.println("Info\n" + cabComp.getInfo());
         
+        in.close();
     }
 }

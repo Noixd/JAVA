@@ -9,7 +9,7 @@ public class Audit {
     public Audit (int Num, double Area) {
         this.Num = Num;
         this.Area = Area;
-        this.Capacity = Area / 1.2;
+        this.Capacity = Math.floor(Area / 1.2);
     }
 
     public Audit () {
@@ -43,6 +43,6 @@ public class Audit {
     }
 
     public void CapacityCalc () {
-        this.Capacity = Area / 1.2;
+        this.Capacity =  Math.floor(Area / 1.2);
     }
 }
