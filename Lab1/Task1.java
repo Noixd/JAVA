@@ -3,17 +3,17 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main (){
+
         double y, n, rez;
 
-        Scanner in1 = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.print("Input a 1 number: ");
-        y = in1.nextDouble();
-        in1.close();
+        y = in.nextDouble();
+    
 
-        Scanner in2 = new Scanner(System.in);
         System.out.print("Input a 2 number: ");
-        n = in2.nextDouble();
-        in2.close();
+        n = in.nextDouble();
+        in.close();
 
         rez = Math.pow(y, 2) + 0.5 * n + 4.8 / Math.sin (y);
 

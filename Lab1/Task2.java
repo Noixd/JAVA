@@ -7,7 +7,7 @@ public class Task2 {
     
     public static void main () {
        
-    int inp_month, inp_year;
+        int inp_month, inp_year;
 
         Scanner in_date = new Scanner(System.in);
         System.out.print("Insert num of month: ");
@@ -22,10 +22,9 @@ public class Task2 {
         calendar.set(Calendar.MONTH, inp_month);
         calendar.set(Calendar.YEAR, inp_year);
 
-        System.out.println("Days ih this month: ");
+        System.out.println("Лабораторная работа № 1. Задание № 2.");
+        System.out.println("Days in this month: ");
         
         System.out.print(calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
-
-
-        }
+    }
 }
