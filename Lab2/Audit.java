@@ -22,7 +22,7 @@ public class Audit {
         this.Num = Num;
     }
     
-    public void setArea (int Area) {
+    public void setArea (double Area) {
         this.Area = Area;
     }
 

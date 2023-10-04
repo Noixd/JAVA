@@ -15,11 +15,11 @@ public class Lec extends Audit {
         this.Capacity = 0;
     }
 
-    public void setP (int K) {
+    public void setK (int K) {
         this.K = K;
     }
     
-    public int getP () {
+    public int getK () {
         return K;
     }
 
