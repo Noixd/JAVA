@@ -2,7 +2,7 @@ package Lab3;
 
 public class Task1 {
     
-    public static void main(String args[]) {
+    public static void main() {
 
         String path = "АБвrде 123ЖзИ";
         char[] word_inp = path.toCharArray();
@@ -10,7 +10,7 @@ public class Task1 {
         int j = 0;
 
         for(int i = 0; i <= word_out.length-1; i++) {
-            
+
             if (Character.isUpperCase(word_inp[i])) word_out[j++] = word_inp[i];
         }
         
