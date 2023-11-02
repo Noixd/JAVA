@@ -9,7 +9,7 @@ public class Task2 {
         Scanner in = new Scanner(System.in);
         System.out.print("Input string: ");
         String path = in.nextLine();
-        char[] word = path.toCharArray();
+        
         int i = 0;
 
         System.out.print("Input n-char: ");
@@ -18,14 +18,15 @@ public class Task2 {
             System.out.println("Incorrect! Try again!");
             n_raw = in.nextLine();
         }
-        char n = n_raw.charAt(0);
         in.close();
         
-        while (i < word.length) {
-            if(word[i] == n) {
-                
-            }
+        String[] strings = path.split(n_raw);
+        for (i = 0; i < strings.length; i++) {
+            strings[i] = " " + strings[i];
         }
-
+        
+        path = String.join(n_raw, strings);
+        System.out.println(path.trim());
+        System.out.println("Amount of words: " + i);
+        }
     }
-}
