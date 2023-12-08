@@ -1,12 +1,10 @@
-package com.lab4;
+package com.example;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
@@ -49,17 +47,6 @@ public class PrimaryController {
      */
     @FXML
     void initialize() {}
-
-    
-    /** 
-     * @throws IOException
-     * Метод перехода на окно с информацией об авторе
-     */
-
-    @FXML
-    private void switchToSecondary() throws IOException {
-        App.setRoot("secondary");
-    }
 
     /*
      * Метод управления кнопкой Close

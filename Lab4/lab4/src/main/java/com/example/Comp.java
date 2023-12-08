@@ -1,4 +1,4 @@
-package com.lab4;
+package com.example;
 
 /*
  * Класс представления компьютерной аудитории

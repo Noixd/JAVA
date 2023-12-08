@@ -2,7 +2,7 @@ package Lab3;
 
 public class Task1 {
     
-    public static void main() {
+    public static void main(String args[]) {
 
         String path = "АБвrде 123ЖзИ";
         char[] word_inp = path.toCharArray();
