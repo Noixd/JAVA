@@ -51,7 +51,7 @@ public class Comp extends Audit {
         return "Comp num of PC: " + P + "\n" + "Comp Capacity: " + Capacity + "\n";
     }
 
-    /*
+    /**
      * Calc capacity
      */
     public void CapacityCalc () {

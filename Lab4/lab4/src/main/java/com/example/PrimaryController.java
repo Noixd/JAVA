@@ -48,7 +48,7 @@ public class PrimaryController {
     @FXML
     void initialize() {}
 
-    /*
+    /**
      * Метод управления кнопкой Close
      */
     @FXML

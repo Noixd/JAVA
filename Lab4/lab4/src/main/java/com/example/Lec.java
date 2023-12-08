@@ -51,7 +51,7 @@ public class Lec extends Audit {
         return "Lec num of tiers: " + K + "\n" + "Lec Capacity: " + Capacity + "\n";
     }
 
-    /*
+    /**
      * Calc capacity 
      */
     public void CapacityCalc () {

@@ -38,15 +38,27 @@ public class App extends Application {
         scene.setRoot(loadFXML(fxml));
     }
 
+    
+    /** 
+     * @param fxml
+     * @return Parent
+     * @throws IOException
+     */
     private static Parent loadFXML(String fxml) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
         return fxmlLoader.load();
     }
     
+    /**
+     * Control for close button
+     */
     static void Close() {
         System.exit(0);
     }
 
+    /**
+     * Main - launch
+     */
     public static void main(String[] args) {
         launch();
     }

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.example.demo","l":"AboutController"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.demo","l":"App"},{"p":"com.example.demo","l":"Audit"},{"p":"com.example.demo","l":"Comp"},{"p":"com.example.demo","l":"Lec"},{"p":"com.example.demo","l":"PrimaryController"}];updateSearchResults();

@@ -69,7 +69,7 @@ public class Audit {
     public String getInfo() {
         return "Audit Num: " + Num + "\n" + "Audit Area: " + Area + "\n" + "Audit Capacity: " + Capacity + "\n";
     }
-    /*
+    /**
      * Calc capacity
      */
     public void CapacityCalc () {
