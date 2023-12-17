@@ -19,7 +19,7 @@ public class App {
         aList.add(new Gas_stantions("bbb", 95, 300, "Pushkina"));
         aList.add(new Gas_stantions("bbb", 92, 457, "Goncharova"));
 
-        aList.sort((o1, o2) -> o2.getInfo().compareTo(o1.getInfo()));
+        aList.sort((o1, o2) -> o1.getInfo().compareTo(o2.getInfo()));
 
         int i = 0;
 
@@ -35,7 +35,6 @@ public class App {
             if (street != aList.get(i).getStreet()) {
                 street = aList.get(i).getStreet();
                 sCount.add(new Street_count(aList.get(i).getStreet()));
-                if (aList.get(i).getOil() == 98) sCount.get(i);
             }
             i++;
         }
