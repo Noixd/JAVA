@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.example.lab4_eliz","l":"AboutController"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.lab4_eliz","l":"App"},{"p":"com.example.lab4_eliz","l":"HostelController"},{"p":"com.example.lab4_eliz","l":"OfficeController"},{"p":"com.example.lab4_eliz","l":"PrimaryController"}];updateSearchResults();
