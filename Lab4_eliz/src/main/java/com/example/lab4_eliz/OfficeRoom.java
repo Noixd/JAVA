@@ -15,10 +15,18 @@ class OfficeRoom extends Room {
         this.paintUsage = paintUsage;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getInfo() {
         return "Length: " + length + " Width: " + width + " Height: " + height + "\nNum of rooms: " + numRooms + " Paint usage: " + paintUsage;
     }
 
+    
+    /** 
+     * @return double
+     */
     public double calculateCeilingPaintUsage() {
         double totalArea = (numRooms * calculateWallArea()) + (corridorArea * height);
         return totalArea * paintUsage;

@@ -50,6 +50,10 @@ public class OfficeController {
     @FXML
     private TextField whidthField;
 
+    
+    /** 
+     * @param close(
+     */
     @FXML
     void initialize() {}
 
@@ -64,7 +68,7 @@ public class OfficeController {
     
     /** 
      * @throws IOException
-     * Метод управления кнопкой Enter
+     * Метод управления кнопкой About
      */
 
     @FXML
@@ -72,10 +76,18 @@ public class OfficeController {
         App.setRoot("about");
     }
 
+    
+    /** 
+     * @throws IOException
+     */
     @FXML
     private void switchToHostel() throws IOException {
         App.setRoot("hostelView");
     }
+    
+    /** 
+     * @throws IOException
+     */
     @FXML
     private void switchToPrimary() throws IOException {
         App.setRoot("primary");

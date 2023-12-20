@@ -18,10 +18,18 @@ class Room {
         this.height = height;
     }
 
+    
+    /** 
+     * @return double
+     */
     public double calculateWallArea() {
         return (2 * length * height) + (2 * width * height);
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getInfo() {
         return "Length: " + length + " Width: " + width + " Height: " + height;
     }

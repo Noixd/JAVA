@@ -45,6 +45,12 @@ public class HostelController {
     @FXML
     private TextArea OutputField;
 
+    
+
+    
+    /** 
+     * @param close(
+     */
     @FXML
     void initialize() {}
 
@@ -59,7 +65,7 @@ public class HostelController {
     
     /** 
      * @throws IOException
-     * Метод управления кнопкой Enter
+     * Метод управления кнопкой About
      */
 
     @FXML
@@ -67,11 +73,19 @@ public class HostelController {
         App.setRoot("about");
     }
 
+    
+    /** 
+     * @throws IOException
+     */
     @FXML
     private void switchToOffice() throws IOException {
         App.setRoot("officeView");
     }
 
+    
+    /** 
+     * @throws IOException
+     */
     @FXML
     private void switchToPrimary() throws IOException {
         App.setRoot("primary");

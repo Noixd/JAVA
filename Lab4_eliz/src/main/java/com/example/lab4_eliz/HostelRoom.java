@@ -14,10 +14,18 @@ class HostelRoom extends Room {
         this.pricePerNight = pricePerNight;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getInfo() {
         return "Length: " + length + " Width: " + width + " Height: " + height + "\nNum of tenants: " + numTenants + " Price per night: " + pricePerNight;
     }
 
+    
+    /** 
+     * @return double
+     */
     public double calculateIncomePerDay() {
         return numTenants * pricePerNight;
     }

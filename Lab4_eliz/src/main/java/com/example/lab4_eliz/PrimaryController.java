@@ -55,7 +55,7 @@ public class PrimaryController {
     
     /** 
      * @throws IOException
-     * Метод управления кнопкой Enter
+     * Метод управления кнопкой About
      */
 
     @FXML
@@ -63,11 +63,19 @@ public class PrimaryController {
         App.setRoot("about");
     }
 
+    
+    /** 
+     * @throws IOException
+     */
     @FXML
     private void switchToHostel() throws IOException {
         App.setRoot("hostelView");
     }
 
+    
+    /** 
+     * @throws IOException
+     */
     @FXML
     private void switchToOffice() throws IOException {
         App.setRoot("officeView");
